@@ -1,6 +1,6 @@
 # Adam Optimizer
 
-Adam is one of the workhorses of deep learning. It's an SGD-based algorithm with adaptive estimation of 1st and 2nd-order moments.
+[Adam](https://arxiv.org/abs/1412.6980) is one of the workhorses of deep learning. It's an SGD-based algorithm with adaptive estimation of 1st and 2nd-order moments.
 
 I'm not a Haskell programmer so for all I know this code might suck compared to what a real Haskell coder would do, so be warned.
 
