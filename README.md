@@ -2,7 +2,7 @@
 
 [Adam](https://arxiv.org/abs/1412.6980) is one of the workhorses of modern deep learning. It's an SGD-based algorithm with adaptive estimation of 1st and 2nd-order moments.
 
-This is mainly to do some Haskell coding, so for all I know this code might suck compared to what a real Haskell coder would do, so be warned. This is using the [StateT monad transformer](https://book.realworldhaskell.org/read/monad-transformers.html) to manage moments' state through Adam steps.
+This is mainly to do some Haskell coding, so for all I know this code might suck compared to what a real Haskell coder would do, so be warned. The implementation is using the [StateT monad transformer](https://book.realworldhaskell.org/read/monad-transformers.html) to manage moments' state through Adam steps.
 
 # Algorithm
 Adam maintains two moments for each model parameter $\theta$ during the optimization process:
