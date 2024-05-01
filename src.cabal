@@ -37,9 +37,6 @@ license-file:       LICENSE
 -- The package author(s).
 author:             milton_lopez
 
--- An email address to which users can send suggestions, bug reports, and patches.
-maintainer:         miltond_lopez@yahoo.com.ar
-
 -- A copyright notice.
 -- copyright:
 build-type:         Simple
